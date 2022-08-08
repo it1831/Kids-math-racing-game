@@ -6,3 +6,4 @@ Simple JS math for preschoolers, for every right answer their car will speed up 
 lvls? <br>
 rewards? <br>
 skins? mby skin rewards?<br> 
+practice / normal mod? <br>
