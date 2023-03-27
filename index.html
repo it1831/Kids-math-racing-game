@@ -14,6 +14,18 @@
     .nadpis{
         background-color: yellowgreen;
     }
+    footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: grey;
+        }
+    .symbol {
+        font-size: 50px;
+    }
     </style>
     </head>
 
@@ -24,34 +36,26 @@
         </h1>
 
     </header>
-    <main>
+    <main>   
         <div class="container">
-                
-                <form>
-                    <div class="form-group">
-                      <input type="number" class="form-control" id="prvni" value="0">
-                    </div>
-                    <div class="form-group">
-                      <input type="number" class="form-control" id="druhy" value="0">
-                    </div>
-                    
-                <div>
-                        <button type="button" class=" button btn btn-warning" id="plus">+</button>
-                        <button type="button" class=" button btn btn-success" id="minus">-</button>
-                        <button type="button" class=" button btn btn-danger" id="krat">*</button>
-                        <button type="button" class=" button btn btn-info" id="deleno">/</button>
-
+            <div class="row">
+                <div class="col-sm-3">
+                        <button type="button" class="col-sm-12 button btn btn-warning" id="plus" > <a href="./operations/plus.html" class="symbol">+</a></button>
                 </div>
-                    <br>
-                    <label for="result" class="col-sm-3 col-form-label">Výsledek:</label>
-                    <div class="col-sm-3" id="result">0</div>
-                    </div>
-                </form>
+                <div class="col-sm-3">
+                    <button type="button" class="col-sm-12 button btn btn-success" id="minus"><a href="./operations/minus.html" class="symbol">-</a></button>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="col-sm-12 button btn btn-danger" id="krat"><a href="./operations/times.html" class="symbol">*</a></button>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="col-sm-12 button btn btn-info" id="deleno"><a href="./operations/divide.html" class="symbol">/</a></button>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="text-center">
-        <hr>
-        <p>&copy; Adam Hujar <br></p>
+        <p>&copy; Adam Hujar &amp; it1831<br></p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
