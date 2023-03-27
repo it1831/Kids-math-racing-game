@@ -8,3 +8,5 @@ rewards? <br>
 skins? mby skin rewards?<br> 
 practice / normal mod? skill groups? <br>
 learning from 0 by using dots insted of numbres, or smthng like that?
+
+starting on cars racing each other based on number of right and wrong answers
